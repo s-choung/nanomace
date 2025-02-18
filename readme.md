@@ -9,33 +9,25 @@ This repository contains scripts and analysis tools for studying the structure g
   - Nanomace structure generation and optimization
   - Cube structure generation
   - Rod structure generation
-  - Structure validation and analysis tools
 
 ### 2. Oxygen Vacancy Analysis (`oxygen_vacancy/`)
 - **Vacancy Formation**
-  - Oxygen vacancy creation scripts
-  - Energy calculations
-  - Structural relaxation tools
-  - Vacancy distribution analysis
+  - Oxygen vacancy structure generation and optimization
 
 ### 3. CO Molecular Dynamics (`co_md/`)
 - **MD Simulations**
-  - CO interaction simulation setup
-  - Temperature-controlled MD runs
-  - Trajectory analysis tools
+  - CO enviroment MD simulation setup
 
 ### 4. Visualization (`visualization/`)
 - **Figure Generation**
-  - Scripts for generating publication-quality figures
-  - Data processing and plotting tools
-  - Statistical analysis
+  - All Scripts and raw data for generating publication-quality figures
 
 ## Requirements
 - Python 3.x
 - ASE (Atomic Simulation Environment)
 - NumPy
 - Matplotlib
-- [Other dependencies to be added]
+- Calculator (e.g. Matlantis, MACE-MP or Empirical Force Field)
 
 ## Large Files
 Large trajectory files and simulation data will be available through [external repository/link to be added]
