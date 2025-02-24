@@ -4,7 +4,10 @@ This repository contains scripts and analysis tools for studying the structure g
 
 ## Repository Structure
 
-### 1. Structure Generation (`structure_generation/`)
+### 0_input/
+- Contains input files for simulations
+
+### 1. Structure Generation (`1_structure_gen/`)
 - **Nanostructure Generation**
   - Nanomace structure generation and optimization
   - Cube structure generation
@@ -14,7 +17,7 @@ This repository contains scripts and analysis tools for studying the structure g
 - **Vacancy Formation**
   - Oxygen vacancy structure generation and optimization
 
-### 3. CO Molecular Dynamics (`co_md/`)
+### 3. CO Molecular Dynamics (`3_co_environment/`)
 - **MD Simulations**
   - CO enviroment MD simulation setup
 
@@ -29,8 +32,6 @@ This repository contains scripts and analysis tools for studying the structure g
 - Matplotlib
 - Calculator (e.g. Matlantis, MACE-MP or Empirical Force Field)
 
-## Large Files
-Large trajectory files and simulation data will be available through [external repository/link to be added]
 
 ## Citation
 
